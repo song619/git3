@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+	<meta property="og:image" content="../images/og_img.jpg">
+	<title>NH오픈플랫폼</title>
+	<link href="../css/reset.css" rel="stylesheet" />
+	<link href="../css/aos.css" rel="stylesheet" />
+	<link href="../css/swiper.min.css" rel="stylesheet" />
+	<link href="../css/common.css" rel="stylesheet" />
+	<link href="../css/contents.css" rel="stylesheet" />
+	<link href="../css/main.css" rel="stylesheet" />
+	<script src="../js/common.js" type="text/javascript"></script>
+	<script src="../js/ui.js" type="text/javascript"></script>
+ 	<script src="../js/aos.js"></script>
+	<style>
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+	<header class="main" id="myHeader">
+		<!-- PC header -->
+		<div class="PCheader">
+			<div class="inner">
+				<h1><a href="index.html">NH오픈플랫폼</a></h1>
+				<ul class="utilList">
+					<li><a href="platform/PL_2010.html">NH오픈플랫폼</a></li>
+					<li><a href="nhAPI/AP_1010.html">오픈API</a></li>
+					<li><a href="nhExample/EP_1010.html">활용예시</a></li>
+					<li><a href="promotion/PM_1010.html">홍보센터</a></li>
+					<li><a href="https://developers.nonghyup.com" target="_blank">개발자센터</a></li>
+				</ul>
+			</div>
+			<div class="gnbWrap">
+				<div class="inner">
+					<ul class="gnbList">
+						<li>
+							<ul class="gnbDept">
+								<li><a href="platform/PL_1010.html">CEO인사말</a></li>
+								<li><a href="platform/PL_2010.html">NH오픈플랫폼 소개</a></li>
+								<li><a href="platform/PL_3010.html">NH오픈플랫폼 구성</a></li>
+								<li><a href="platform/PL_4010.html">NH오픈플랫폼 차이점</a></li>
+								<li><a href="platform/PL_5010.html">NH오픈플랫폼 보안</a></li>
+								<li><a href="platform/PL_6010.html">NH오픈플랫폼 신청안내</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="gnbDept">
+								<li class="etc"><a href="javascript:;">공통</a>
+									<ul class="gnbDept2">
+										<li><a href="nhAPI/AP_1010.html">핀-어카운트 / 핀-카드</a></li>
+										<li><a href="nhAPI/AP_2010.html">출금이체</a></li>
+										<li><a href="nhAPI/AP_3010.html">입금이체</a></li>
+										<li><a href="nhAPI/AP_4010.html">예금주조회</a></li>
+										<li><a href="nhAPI/AP_5010.html">금융정보</a></li>
+										<li><a href="nhAPI/AP_6010.html">가상계좌</a></li>
+										<li><a href="nhAPI/AP_7010.html">자금출처관리</a></li>
+									</ul>
+								</li>
+								<li class="etc"><a href="javascript:;">간편결제</a>
+									<ul class="gnbDept2">
+										<li><a href="nhAPI/AP_8010.html">카드승인</a></li>
+										<li><a href="nhAPI/AP_9010.html">지로공과금 납부</a></li>
+									</ul>
+								</li>
+								<li><a href="nhAPI/AP_1110.html">카드조회</a></li>
+								<li class="etc"><a href="javascript:;">P2P</a>
+									<ul class="gnbDept2">
+										<li><a href="nhAPI/AP_1210.html">P2P자금관리</a></li>
+										<li><a href="nhAPI/AP_1310.html">소상공인 외상매출 담보</a></li>
+									</ul>
+								</li>
+								<li class="etc"><a href="javascript:;">기타</a>
+									<ul class="gnbDept2">
+										<li><a href="nhAPI/AP_1410.html">예치금 자금관리</a></li>
+										<li><a href="nhAPI/AP_1510.html">환전</a></li>
+										<li><a href="nhAPI/AP_1710.html">관리/모니터링</a></li>
+									</ul>
+								</li>
+								<li><a href="nhAPI/AP_1810.html">전체 API</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="gnbDept">
+								<li><a href="nhExample/EP_1010.html">활용예시</a></li>
+								<li><a href="nhCase/CE_1010.html">적용사례</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="gnbDept">
+								<li><a href="promotion/PM_1010.html">홍보영상</a></li>
+								<li><a href="promotion/PM_2010.html">HISTORY</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- //PC header -->
+
+		<!-- 모바일 header -->
+		<div class="Mheader">
+			<div class="header">
+				<a href="index.html" role="button"><h2 class="titHead" aria-label="NH오픈플랫폼">NH오픈플랫폼</h2></a>
+				<button type="button" class="btnSide">메뉴보기
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+			<!-- hide menu -->
+			<div class="innerSide" aria-hidden="true">
+				<div class="layWrap">
+					<div class="topArea">
+						<a href="index.html" role="button" class="btnHome">NH오픈플랫폼</a>
+						<button type="button" class="btnClose">메뉴닫기</button>
+					</div>
+					<nav class="navArea">
+						<ul class="menuDepth1">
+							<li>
+								<a href="javascript:;" role="button" aria-expanded="false">NH오픈플랫폼</a>
+								<ul class="menuDepth2">
+									<li><a href="platform/PL_1010.html" role="button">CEO인사말</a></li>
+									<li><a href="platform/PL_2010.html" role="button">NH오픈플랫폼 소개</a></li>
+									<li><a href="platform/PL_3010.html" role="button">NH오픈플랫폼 구성</a></li>
+									<li><a href="platform/PL_4010.html" role="button">NH오픈플랫폼 차이점</a></li>
+									<li><a href="platform/PL_5010.html" role="button">NH오픈플랫폼 보안</a></li>
+									<li><a href="platform/PL_6010.html" role="button">NH오픈플랫폼 신청안내</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;" role="button" aria-expanded="false">오픈API</a>
+								<ul class="menuDepth2">
+									<li><a href="nhAPI/AP_1010.html" role="button">핀-어카운트 / 핀-카드</a></li>
+									<li><a href="nhAPI/AP_2010.html" role="button">출금이체</a></li>
+									<li><a href="nhAPI/AP_3010.html" role="button">입금이체</a></li>
+									<li><a href="nhAPI/AP_4010.html" role="button">예금주조회</a></li>
+									<li><a href="nhAPI/AP_5010.html" role="button">금융정보</a></li>
+									<li><a href="nhAPI/AP_6010.html" role="button">가상계좌</a></li>
+									<li><a href="nhAPI/AP_7010.html" role="button">자금출처관리</a></li>
+									<li><a href="nhAPI/AP_8010.html" role="button">카드승인</a></li>
+									<li><a href="nhAPI/AP_9010.html" role="button">지로공과금 납부</a></li>
+									<li><a href="nhAPI/AP_1110.html" role="button">카드조회</a></li>
+									<li><a href="nhAPI/AP_1210.html" role="button">P2P자금관리</a></li>
+									<li><a href="nhAPI/AP_1310.html" role="button">소상공인 외상매출 담보</a></li>
+									<li><a href="nhAPI/AP_1410.html" role="button">예치금 자금관리</a></li>
+									<li><a href="nhAPI/AP_1510.html" role="button">환전</a></li>
+									<li><a href="nhAPI/AP_1710.html" role="button">관리/모니터링</a></li>
+									<li><a href="nhAPI/AP_1810.html" role="button">전체 API</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;" role="button" aria-expanded="false">활용예시</a>
+								<ul class="menuDepth2">
+									<li><a href="nhExample/EP_1010.html" role="button">활용예시</a></li>
+									<li><a href="nhCase/CE_1010.html" role="button">적용사례</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;" role="button" aria-expanded="false">홍보센터</a>
+								<ul class="menuDepth2">
+									<li><a href="promotion/PM_1010.html" role="button">홍보영상</a></li>
+									<li><a href="promotion/PM_2010.html" role="button">HISTORY</a></li>
+								</ul>
+							</li>
+							<li class="etc"><a href="https://developers.nonghyup.com" target="_blank" role="button">개발자센터</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<!-- //hide menu -->
+		</div>
+		<!-- //모바일 header -->
+	</header>
+
+	<div class="wrap main">
+		<!-- pc영역 -->
+		<div class="pcCon">
+			<!-- scene1 -->
+			<div class="section scene1">
+				<i class="bgico1 motionc"></i>
+				<i class="bgico2 motiond"></i>
+				<i class="bgico3 motiona" ></i>
+				<i class="bgico4 motionb"></i>
+				<i class="bgico5 motione"></i>
+				<i class="bgico6 motionf"></i>
+				<div class="inner">
+					<div class="mainSlider1">
+						<div>
+							<div class="textBox">
+								<p class="h3txt" data-aos="fade-down" data-aos-duration="2500">자유로운 개발환경을 지원하는</p>
+								<p class="h2txt" data-aos="fade-down" data-aos-duration="1500">개발자센터 오픈</p>
+								<p class="subtxt" data-aos="fade-up" data-aos-duration="2000">
+									<span>오픈API 개발가이드부터, 자유로운 테스트를 지원하는</span>
+									<span>테스트베드, 개발자들간의 커뮤니케이션을 위한 개발자포럼을 제공합니다.</span>
+								</p>
+								<a href="https://developers.nonghyup.com" target="_blank" role="button" data-aos="fade-up" data-aos-duration="2000">개발자사이트 바로가기</a>
+							</div>
+						</div>
+						<div>
+							<div class="textBox">
+								<p class="h3txt">금융을 열어 세상을 바꾸다</p>
+								<p class="h2txt">NH오픈플랫폼</p>
+								<p class="subtxt">
+									<span>NH오픈플랫폼은 핀테크 기업이 기존 핀테크 서비스에 금융서비스를 편리하게 개발할 수 있도록</span>
+									<span>금융API를 제공하고 지원하는 기반 환경 입니다.</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //scene1 -->
+			<!-- scene2  -->
+			<div class="section scene2">
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">오픈API</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼에서 제공하는 API구성을 소개합니다</p>
+					<ul class="onApi">
+						<li>
+							<a href="javascript:;">
+								<i class="ico1" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine"></i>
+								<p class="tit" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in-sine">공통</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1010.html'" class="ico1_1"><span>핀-어카운트<br />/핀-카드</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_2010.html'" class="ico1_2"><span>출금이체</span></button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="ico2" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine"></i>
+								<p class="tit" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in-sine">간편결제</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_8010.html'" class="ico2_1"><span>신용카드</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_9010.html'" class="ico2_2"><span>지로공과금납부</span></button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="ico3" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine"></i>
+								<p class="tit" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in-sine">자산관리</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1110.html'" class="ico3_1"><span>카드조회(개인)</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1110.html'" class="ico3_2"><span>카드조회(기업)</span></button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="ico4" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine"></i>
+								<p class="tit" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in-sine">P2P</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1210.html'" class="ico4_1"><span>P2P자금관리</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1310.html'" class="ico4_2"><span>소상공인외상<br />매출담보</span></button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="ico5" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine"></i>
+								<p class="tit" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in-sine">기타제휴</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1410.html'" class="ico5_1"><span>예치금<br />자금관리</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1510.html'" class="ico5_2"><span>환전</span></button>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="ico6" data-aos="fade-down" data-aos-offset="150" data-aos-easing="ease-in-sine"></i>
+								<p class="tit" data-aos="fade-up" data-aos-offset="50" data-aos-easing="ease-in-sine">관리</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1710.html'" class="ico6_1"><span>모니터링</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1710.html'" class="ico6_2"><span>약정관리</span></button>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //scene2 -->
+			<!-- scene3 -->
+			<div class="section scene3">
+				<i class="bgico1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="3000"></i>
+				<i class="bgico2" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="3000"></i>
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼 HISTORY</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼의 지난 3년간의 성적표를 설명합니다.(2019년 말 기준)</p>
+					<ul>
+						<li>
+							<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+								<img src="../images/scene5_shape1.png" alt="" data-aos="fade-up" data-aos-offset="30" data-aos-easing="ease-in-sine"/>
+								<div class="txtBox">
+									<p class="txt1" data-aos="fade-down">183개</p>
+									<p class="txt2" data-aos="fade-down">서비스API 140개, 관리API 43개<span>총 183개 API를 서비스중입니다.</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+								<img src="../images/scene5_shape2.png" alt="" data-aos="fade-up" data-aos-offset="30" data-aos-easing="ease-in-sine" />
+								<div class="txtBox">
+									<p class="txt1" data-aos="fade-down">150배, 200배</p>
+									<p class="txt2" data-aos="fade-down">거래건수는 200배,<span>거래액은 150배 성장했습니다.</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+								<img src="../images/scene5_shape3.png" alt="" data-aos="fade-up" data-aos-offset="30" data-aos-easing="ease-in-sine" />
+								<div class="txtBox">
+									<p class="txt1" data-aos="fade-down">62개</p>
+									<p class="txt2" data-aos="fade-down">총 62개의 기업과 기관에서 사용중<span>입니다.</span></p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+								<img src="../images/scene5_shape4.png" alt="" data-aos="fade-up" data-aos-offset="30" data-aos-easing="ease-in-sine" />
+								<div class="txtBox">
+									<p class="txt1" data-aos="fade-down">33개</p>
+									<p class="txt2" data-aos="fade-down">33개의 정보보호 및 보안가이드를<span>마련하여 적용하고 있습니다.</span></p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //scene3 -->
+			<!-- scene4 -->
+			<div class="section scene4">
+				<i class="bgico1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="3000"></i>
+				<i class="bgico2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000"></i>
+				<i class="bgico3" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="3000"></i>
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼 개발자센터</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">오픈 API플랫폼의 API를 활용하여 앱을 개발할 때
+						<span>API에 접근하고 테스트 해볼 수 있는 편리한 환경을 제공합니다</span>
+					</p>
+					<div class="sldView mainSlider2">
+						<div>
+							<i class="ico1" data-aos="fade-up"></i>
+							<div class="txtBox">
+								<p class="txt1" data-aos="fade-left">API 개발가이드</p>
+								<p class="txt2" data-aos="fade-right">오픈API의<span>사용방법 및 예제를 제공해 드립니다.</span></p>
+							</div>
+						</div>
+						<div>
+							<i class="ico2"></i>
+							<div class="txtBox">
+								<p class="txt1">REST API 도구</p>
+								<p class="txt2">별도의 클라이언트 프로그램 없이 Restful 방식의<span> 오픈API를 웹에서 테스트 할 수 있는 도구와 환경을 제공합니다.</span></p>
+							</div>
+						</div>
+						<div>
+							<i class="ico3"></i>
+							<div class="txtBox">
+								<p class="txt1">개발자포럼</p>
+								<p class="txt2">개발자 분들끼리 서로 궁금한 점을 묻고 답하며<span>소통할 수 있는 열린 공간입니다.</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //scene4 -->
+			<!-- scene5 -->
+			<div class="section scene5">
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">with NH오픈플랫폼</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼의 API를 사용하는 제휴업체와 APP서비스를 소개합니다</p>
+					<div class="ciList">
+						<ul>
+							<li><img src="../images/ci_slide01off.png" alt="비바리퍼블리카(Toss)" /></li>
+							<li><img src="../images/ci_slide02off.png" alt="더즌(카카오페이)" /></li>
+							<li><img src="../images/ci_slide03off.png" alt="sk플래닛(11번가)" /></li>
+							<li><img src="../images/ci_slide04off.png" alt="레이니스트(뱅크샐러드)" /></li>
+							<li><img src="../images/ci_slide05off.png" alt="8퍼센트" /></li>
+							<li><img src="../images/ci_slide06off.png" alt="팝펀딩" /></li>
+							<li><img src="../images/ci_slide07off.png" alt="나이스비즈니스플랫폼" /></li>
+							<li><img src="../images/ci_slide08off.png" alt="주택관리공단" /></li>
+							<li><img src="../images/ci_slide09off.png" alt="강원신용보증재단" /></li>
+							<li><img src="../images/ci_slide10off.png" alt="한국정보통신" /></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- //scene5 -->
+		</div>
+		<!-- //pc영역 -->
+
+		<!-- moblie영역 -->
+		<div class="moCon">
+			<!-- scene1 -->
+			<div class="section scene1">
+				<i class="bgico1 motionc"></i>
+				<i class="bgico2 motiond"></i>
+				<i class="bgico3 motiona" ></i>
+				<i class="bgico4 motionb"></i>
+				<i class="bgico5 motione"></i>
+				<i class="bgico6 motionf"></i>
+				<div class="inner">
+					<div class="mainSlider3">
+						<div>
+							<div class="textBox">
+								<p class="h3txt" data-aos="fade-down" data-aos-duration="2500">자유로운 개발환경을 지원하는</p>
+								<p class="h2txt" data-aos="fade-down" data-aos-duration="1500">개발자센터 오픈</p>
+								<a href="https://developers.nonghyup.com" target="_blank" role="button" data-aos="fade-up" data-aos-duration="2000">개발자사이트 바로가기</a>
+							</div>
+						</div>
+						<div>
+							<div class="textBox">
+								<p class="h3txt">금융을 열어 세상을 바꾸다</p>
+								<p class="h2txt">NH오픈플랫폼</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //scene1 -->
+
+			<!-- scene2  -->
+			<div class="section scene2">
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">오픈API</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼에서 제공하는 API구성을 소개합니다</p>
+					<ul class="onApi">
+						<li data-aos="flip-left" data-aos-easing="ease-in-sine">
+							<a href="javascript:;" role="button" aria-expanded="false">
+								<i class="ico1"></i>
+								<p class="tit">공통</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1010.html'" class="ico1_1"><span>핀-어카운트<br />/핀-카드</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_2010.html'" class="ico1_2"><span>출금이체</span></button>
+								</div>
+							</a>
+						</li>
+						<li data-aos="flip-right" data-aos-easing="ease-in-sine">
+							<a href="javascript:;" role="button" aria-expanded="false">
+								<i class="ico2"></i>
+								<p class="tit">간편결제</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_8010.html'" class="ico2_1"><span>신용카드</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_9010.html'" class="ico2_2"><span>지로공과금납부</span></button>
+								</div>
+							</a>
+						</li>
+						<li data-aos="flip-left" data-aos-easing="ease-in-sine">
+							<a href="javascript:;" role="button" aria-expanded="false">
+								<i class="ico3"></i>
+								<p class="tit">자산관리</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1110.html'" class="ico3_1"><span>카드조회(개인)</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1110.html'" class="ico3_2"><span>카드조회(기업)</span></button>
+								</div>
+							</a>
+						</li>
+						<li data-aos="flip-right" data-aos-easing="ease-in-sine">
+							<a href="javascript:;" role="button" aria-expanded="false">
+								<i class="ico4"></i>
+								<p class="tit">P2P</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1210.html'" class="ico4_1"><span>P2P자금관리</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1310.html'" class="ico4_2"><span>소상공인외상<br />매출담보</span></button>
+								</div>
+							</a>
+						</li>
+						<li data-aos="flip-left" data-aos-easing="ease-in-sine">
+							<a href="javascript:;" role="button" aria-expanded="false">
+								<i class="ico5"></i>
+								<p class="tit">기타제휴</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1410.html'" class="ico5_1"><span>예치금<br />자금관리</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1510.html'" class="ico5_2"><span>환전</span></button>
+								</div>
+							</a>
+						</li>
+						<li data-aos="flip-right" data-aos-easing="ease-in-sine">
+							<a href="javascript:;" role="button" aria-expanded="false">
+								<i class="ico6"></i>
+								<p class="tit">관리</p>
+								<div class="onDetail">
+									<button type="button" onclick="location.href='nhAPI/AP_1710.html'" class="ico6_1"><span>모니터링</span></button>
+									<button type="button" onclick="location.href='nhAPI/AP_1710.html'" class="ico6_2"><span>약정관리</span></button>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //scene2 -->
+
+			<!-- scene3 -->
+			<div class="section scene3">
+				<i class="bgico1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500"></i>
+				<i class="bgico2" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500"></i>
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼 HISTORY</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼의 지난 3년간의 성적표를 설명합니다.(2019년 말 기준)</p>
+					<ul>
+						<li class="on"><button type="button" data-aos="fade-right" data-aos-duration="1000" aria-expanded="true">183 <span>SERVICE</span></button>
+							<div class="simgBox">
+								<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+									<img src="../images/scene5_shape1.png" alt="" style="width: 87px;height: 106px" data-aos="fade-down" data-aos-duration="1500" />
+									<p class="txt2" data-aos="fade-up" data-aos-duration="1000">서비스API 140개, 관리API 43개<span>총 183개 API를 서비스중입니다.</span></p>
+								</a>
+							</div>
+						</li>
+						<li><button type="button" data-aos="fade-right" data-aos-duration="1400" aria-expanded="false">200 <span>INCREASE</span></button>
+							<div class="simgBox">
+								<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+									<img src="../images/scene5_shape2.png" alt="" style="width: 90px;height: 92px" />
+									<p class="txt2">거래건수는 150배, 거래액은 200배<span>성장했습니다.</span></p>
+								</a>
+							</div>
+						</li>
+						<li><button type="button" data-aos="fade-right" data-aos-duration="1800" aria-expanded="false">62 <span>INUSE</span></button>
+							<div class="simgBox">
+								<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+									<img src="../images/scene5_shape3.png" alt="" style="width: 111px;height: 83px" />
+									<p class="txt2">총 62개의 기업과 기관에서 사용중<span>입니다.</span></p>
+								</a>
+							</div>
+						</li>
+						<li><button type="button" data-aos="fade-right" data-aos-duration="2200" aria-expanded="false">33 <span>PROTECT</span></button>
+							<div class="simgBox">
+								<a href="promotion/PM_2010.html" target="_self" alt="HISTORY 바로가기">
+									<img src="../images/scene5_shape4.png" alt="" style="width: 72px;height: 83px" />
+									<p class="txt2">33개의 정보보호 및 보안가이드를<span>마련하여 적용하고 있습니다.</span></p>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- //scene3 -->
+
+			<!-- scene4 -->
+			<div class="section scene4">
+				<i class="bgico1" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500"></i>
+				<i class="bgico2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"></i>
+				<i class="bgico3" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500"></i>
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼 개발자센터</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">오픈 API플랫폼의 API를 활용하여 앱을 개발할 때
+						<span>API에 접근하고 테스트 해볼 수 있는 편리한 환경을 제공합니다</span>
+					</p>
+					<div class="sldView mainSlider4">
+						<div>
+							<h4 data-aos="fade-left">API 개발<br />가이드</h4>
+							<i class="ico1" data-aos="fade-up"></i>
+							<div class="txtBox" data-aos="fade-down">
+								<p class="txt1">API 개발가이드</p>
+								<p class="txt2">오픈API의<span>사용방법 및 예제소스를 제공합니다.</span></p>
+							</div>
+						</div>
+						<div>
+							<h4>REST API<br />도구</h4>
+							<i class="ico2"></i>
+							<div class="txtBox">
+								<p class="txt1">REST API 도구</p>
+								<p class="txt2">별도의 클라이언트 프로그램 없이 Restful 방식의<span> 오픈API를 웹에서 테스트 할 수 있는 도구와 환경을 제공합니다.</span></span></p>
+							</div>
+						</div>
+						<div>
+							<h4>개발자<br />포럼</h4>
+							<i class="ico3"></i>
+							<div class="txtBox">
+								<p class="txt1">개발자포럼</p>
+								<p class="txt2">개발자 분들끼리 서로 궁금한 점을 묻고 답하며<span>소통할 수 있는 열린 공간입니다.</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //scene4 -->
+
+			<!-- scene5 -->
+			<div class="section scene5">
+				<div class="inner">
+					<h3 class="h3Tit" data-aos="fade-right" data-aos-offset="30" data-aos-easing="ease-in-sine">with NH오픈플랫폼</h3>
+					<p class="psub" data-aos="fade-left" data-aos-offset="30" data-aos-easing="ease-in-sine">NH오픈플랫폼의 API를 사용하는 제휴업체와 <span>APP서비스를 소개합니다</span></p>
+					<div class="slider3">
+						<div class="swiper-pagination3"></div>
+						<div class="swiper-container" data-aos="fade-up" data-aos-offset="30" data-aos-easing="ease-in-sine">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide"><img src="../images/ci_slide01off.png" alt="비바리퍼블리카(Toss)" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide06off.png" alt="팝펀딩" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide02off.png" alt="더즌(카카오페이)" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide07off.png" alt="나이스비즈니스플랫폼" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide03off.png" alt="sk플래닛(11번가)" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide08off.png" alt="주택관리공단" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide04off.png" alt="레이니스트(뱅크샐러드)" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide09off.png" alt="강원신용보증재단" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide05off.png" alt="8퍼센트" /></div>
+								<div class="swiper-slide"><img src="../images/ci_slide10off.png" alt="한국정보통신" /></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //scene5 -->
+		</div>
+		<!-- //moblie영역 -->
+
+		<div class="pginner">
+			<button type="button" class="pageTop" title="맨위로 이동" role="button">Top</button>
+		</div>
+	</div>
+
+	<footer class="main">
+		<div class="PCfooter">
+			<div class="inner">
+				<div class="footLogo">NH 농협은행</div>
+				<div class="footerAbout">
+					<!-- <ul>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">개인정보처리방침</a></li>
+						<li><a href="">사이트맵</a></li>
+					</ul> -->
+					<address>
+						대표전화 02-2059-3216, 주소 (04517) 서울특별시 중구 통일로 120
+					</address>
+					<p>Copyright NH Bank. All Right Reserved.</p>
+				</div>
+				<select onchange="if(this.value) window.open(this.value);" title="Family site">
+					<option value="#">Family site</option>
+					<option value="https://developers.nonghyup.com/">NH오픈플랫폼 개발자센터</option>
+					<option value="http://www.nonghyup.com/Main/main.aspx">농협중앙회</option>
+					<option value="http://www.nhbank.com/nhmn/KO_NHMN_01.do">NH농협은행</option>
+					<option value="http://www.nhfngroup.com/">NH농협금융지주</option>
+					<option value="https://www.nhlife.co.kr/">NH농협생명</option>
+					<option value="https://www.nhfire.co.kr/">NH농협손해보험</option>
+					<option value="https://www.nhqv.com/">NH투자증권</option>
+					<option value="http://www.nh-amundi.com/">NH-Amundi자산운용</option>
+					<option value="https://www.nhcapital.co.kr/">NH농협캐피탈</option>
+					<option value="https://www.futures.co.kr/">NH선물</option>
+					<option value="http://www.nhsavingsbank.co.kr/">NH저축은행</option>
+					<option value="http://www.nonghyupmall.com/BC31010R/main.nh">NH몰</option>
+					<option value="http://nongshinbo.nonghyup.com/">농림수산업자신용보증기금</option>
+				</select>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div class="Mfooter">
+			<div class="footer">
+				<div class="footarea">
+					<button type="button" class="footLogo">NH 농협은행</button>
+					<div class="footAdd" aria-hidden="true">
+						<address>(04517)서울특별시 중구 통일로 120</address>
+						<p>대표전화 : 02-2059-3216</p>
+					</div>
+					<p class="txt">Copyright NH Bank. All Right Reserved.</p>
+				</div>
+			</div>
+
+			<!-- <div class="footerAbout">
+			<ul>
+				<li><a href="" role="button">Contact Us</a></li>
+				<li><a href="" role="button">개인정보처리방침</a></li>
+				<li><a href="" role="button">사이트맵</a></li>
+				<li>
+					<select onchange="if(this.value) window.open(this.value);">
+						<option>Family site</option>
+						<option value="http://www.nhfngroup.com/">NH농협금융지주</option>
+						<option value="https://www.nhlife.co.kr/">NH농협생명</option>
+						<option value="https://www.nhfire.co.kr/">NH농협손해보험</option>
+						<option value="https://www.nhqv.com/">NH투자증권</option>
+						<option value="http://www.nh-amundi.com/">NH-Amundi자산운용</option>
+						<option value="https://www.nhcapital.co.kr/">NH농협캐피탈</option>
+						<option value="https://www.futures.co.kr/">NH선물</option>
+						<option value="http://www.nhsavingsbank.co.kr/">NH저축은행</option>
+						<option value="http://nongshinbo.nonghyup.com/">농림수산업자신용보증기금</option>
+					</select>
+				</li>
+			</ul>
+		</div> -->
+		</div>
+		<!-- //footer -->
+	</footer>
+	<script type="text/javascript">
+		AOS.init({
+		  duration: 1200,
+		})
+	</script>
+</body>
+</html>
